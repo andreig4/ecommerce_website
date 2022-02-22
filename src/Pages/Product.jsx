@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import img from "../images/flowforgedproduct1.jpg";
 import "./Product.css";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { flowForged, forgedProducts, performanceProducts } from "../data";
 import { Add, Remove } from "@mui/icons-material";
 import Gallery from "../components/Gallery";
@@ -9,8 +8,6 @@ import Gallery from "../components/Gallery";
 import { useDispatch } from "react-redux";
 import { addCartItemsNumber } from "../features/cart/cartSlice";
 import { addItemsToCart } from "../features/cart/cartSlice";
-import { useSelector } from "react-redux";
-import { selectCartItems } from "../features/cart/cartSlice";
 
 const Product = () => {
   const params = useParams();
@@ -39,7 +36,7 @@ const Product = () => {
         setCurrentProduct(item);
       }
     });
-  }, []);
+  }, [params.productId]);
 
   const decreaseAmount = () => {
     if (amount > 1) {

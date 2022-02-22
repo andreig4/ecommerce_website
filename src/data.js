@@ -30,14 +30,14 @@ import forged6 from "./images/forgedproduct6.png";
 import forged7 from "./images/forgedproduct7.png";
 import forged8 from "./images/forgedproduct8.png";
 
-import performance1 from "./images/performanceproduct1.png";
-import performance2 from "./images/performanceproduct2.png";
-import performance3 from "./images/performanceproduct3.png";
-import performance4 from "./images/performanceproduct4.jpg";
-import performance5 from "./images/performanceproduct5.jpg";
-import performance6 from "./images/performanceproduct6.jpg";
-import performance7 from "./images/performanceproduct7.jpg";
-import performance8 from "./images/performanceproduct8.jpg";
+import performance1 from "./images/performanceproduct11.png";
+import performance2 from "./images/performanceproduct22.png";
+import performance3 from "./images/performanceproduct33.png";
+import performance4 from "./images/performanceproduct44.png";
+import performance5 from "./images/performanceproduct55.png";
+import performance6 from "./images/performanceproduct66.png";
+import performance7 from "./images/performanceproduct77.png";
+import performance8 from "./images/performanceproduct88.png";
 
 export const heroSliders = [
   {
