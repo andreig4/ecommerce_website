@@ -1,0 +1,28 @@
+.gallery {
+  margin-top: 1.5rem;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.gallery > h1 {
+  margin-bottom: 2.5rem;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.gallery_wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+  .gallery {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

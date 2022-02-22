@@ -1,0 +1,166 @@
+.footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.footer p,
+.footer li {
+  font-size: 0.8rem;
+}
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors > img {
+  margin: 1rem 0;
+  width: 100px;
+  object-fit: contain;
+  max-height: 50px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links ul li {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.links ul li:hover {
+  color: rgb(97, 93, 93);
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact > img {
+  margin: 1.5rem auto 0 auto;
+  width: 200px;
+}
+
+.contact_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .address,
+.contact .phone,
+.contact .email {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.contact .address p,
+.contact .phone p,
+.contact .email p {
+  margin-left: 10px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social_icons > img {
+  width: 40px;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .sponsors,
+  .links,
+  .contact,
+  .social {
+    width: 50%;
+  }
+
+  .sponsors,
+  .links {
+    margin-bottom: 2rem;
+  }
+
+  .contact,
+  .social {
+    border-top: 1px solid #ccc;
+    padding-top: 1rem;
+  }
+
+  .sponsors > img {
+    width: 85px;
+  }
+
+  .contact > img {
+    width: 150px;
+  }
+
+  .social_icons {
+    gap: 0.5rem;
+  }
+
+  .social_icons > img {
+    width: 35px;
+  }
+}
+
+@media (max-width: 321px) {
+  .footer h3 {
+    font-size: 0.85rem;
+  }
+
+  .footer p,
+  .footer li {
+    font-size: 0.7rem;
+  }
+
+  .social_icons > img {
+    width: 30px;
+  }
+
+  .sponsors > img {
+    width: 75px;
+  }
+}

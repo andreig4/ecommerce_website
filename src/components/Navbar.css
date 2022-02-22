@@ -1,0 +1,162 @@
+.navbar {
+  background-color: #333333;
+  padding: 0.75rem;
+  box-shadow: 0px 7px 15px -3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.navbar_container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_logo {
+  flex: 0.1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar_logo img {
+  width: 40%;
+  min-width: 40px;
+  cursor: pointer;
+}
+
+.navbar_list {
+  flex: 0.5;
+}
+
+.navbar_list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.navbar_list ul li {
+  color: black;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar_list ul li:hover {
+  border-color: rgb(255, 165, 0);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navbar_icons {
+  flex: 0.4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.25rem;
+  color: white;
+}
+
+.navbar_icons .icon {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar_icons .icon:hover {
+  border-color: rgb(255, 165, 0);
+}
+
+.mobile_menu_icon {
+  color: white;
+  display: none !important;
+  cursor: pointer;
+}
+
+.mobile_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 50vw;
+  background-color: #333333;
+  z-index: 10;
+  transition: all 0.75s ease;
+  max-width: 350px;
+}
+
+.mobile_menu .close_icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.mobile_menu ul {
+  list-style: none;
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.mobile_menu ul li {
+  color: white;
+  margin: 1rem 0;
+}
+
+.mobile_menu ul li:hover {
+  color: rgb(255, 165, 0);
+}
+
+@media (max-width: 950px) {
+  .navbar_container {
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .navbar_list {
+    display: none;
+  }
+
+  .mobile_menu_icon {
+    display: block !important;
+  }
+
+  .navbar_icons .icon,
+  .navbar_icons .avatar {
+    transform: scale(0.85);
+  }
+}
+
+@media (max-width: 321px) {
+  .navbar_icons .icon,
+  .navbar_icons .avatar {
+    transform: scale(0.7);
+  }
+
+  .navbar_icons {
+    gap: 0.45rem;
+  }
+}
+
+@media (max-width: 376px) {
+  .mobile_menu ul li {
+    font-size: 1rem;
+  }
+}

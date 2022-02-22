@@ -1,0 +1,52 @@
+.performance_product {
+  width: 255px;
+  margin: 2rem;
+}
+
+.performance_product .img_container {
+  cursor: pointer;
+}
+
+.performance_info {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.performance_product .title {
+  font-size: 20px;
+}
+
+.performance_product .available {
+  font-weight: 700;
+}
+
+.performance_product > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.performance_product .buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.performance_product button {
+  border: 1px solid black;
+  outline: 0;
+  cursor: pointer;
+  padding: 7px 12px;
+  border-radius: 25px;
+  font-size: 0.85rem;
+  background-color: black;
+  color: white;
+  width: 50%;
+}
+
+.performance_product button:hover {
+  background-color: transparent;
+  color: black;
+}
