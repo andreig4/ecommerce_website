@@ -7,6 +7,11 @@
   cursor: pointer;
 }
 
+.forged_product .img_container img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .forged_info {
   height: 250px;
   display: flex;
@@ -21,11 +26,6 @@
 
 .forged_product .available {
   font-weight: 700;
-}
-
-.forged_product > img {
-  width: 100%;
-  object-fit: cover;
 }
 
 .forged_product .buttons {

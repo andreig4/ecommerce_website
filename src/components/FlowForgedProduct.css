@@ -7,6 +7,11 @@
   cursor: pointer;
 }
 
+.flowforged_product .img_container img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .flowforged_info {
   height: 250px;
   display: flex;
@@ -21,11 +26,6 @@
 
 .flowforged_product .available {
   font-weight: 700;
-}
-
-.flowforged_product > img {
-  width: 100%;
-  object-fit: cover;
 }
 
 .flowforged_product .buttons {

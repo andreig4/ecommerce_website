@@ -11,8 +11,8 @@
 }
 
 .cart_product_img_container img {
-  width: 100%;
-  min-width: 204px;
+  max-width: 230px;
+  object-fit: cover;
 }
 
 .cart_product_info {
@@ -71,9 +71,13 @@
   color: #afafaf;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1240px) {
   .cart_product {
     width: 85%;
+  }
+
+  .cart_product_img_container {
+    margin-top: 1rem;
   }
 }
 
@@ -95,7 +99,7 @@
   }
 
   .cart_product_img_container img {
-    width: 92%;
+    max-width: 70%;
   }
 
   .cart_product_info {

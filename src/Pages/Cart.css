@@ -104,7 +104,7 @@
   margin-top: 1rem;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1240px) {
   .cart_wrapper > h1 {
     font-size: 1.75rem;
   }
@@ -152,5 +152,10 @@
 
   .empty {
     font-size: 1.2rem;
+  }
+
+  .cart_wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }

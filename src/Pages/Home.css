@@ -109,6 +109,10 @@
   cursor: pointer;
 }
 
+.category .img_wrapper {
+  max-width: 350px;
+}
+
 .category > h2 {
   font-weight: 500;
 }

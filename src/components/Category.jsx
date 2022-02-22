@@ -13,7 +13,6 @@ const Category = ({ img, categoryName, id }) => {
     <div className="category" onClick={() => navigateTo(id)}>
       <div className="img_wrapper">
         <img src={img} alt="" />
-        <div className="category_info"></div>
       </div>
 
       <h2>{categoryName}</h2>

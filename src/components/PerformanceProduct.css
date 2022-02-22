@@ -7,6 +7,11 @@
   cursor: pointer;
 }
 
+.performance_product .img_container img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .performance_info {
   height: 250px;
   display: flex;
@@ -21,11 +26,6 @@
 
 .performance_product .available {
   font-weight: 700;
-}
-
-.performance_product > img {
-  width: 100%;
-  object-fit: cover;
 }
 
 .performance_product .buttons {

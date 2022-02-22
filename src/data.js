@@ -1,7 +1,7 @@
 import heroImg1 from "./images/hero_img_1.jpg";
 import heroImg2 from "./images/hero_img_2.jpg";
 
-import forged from "./images/forged_homepage.png";
+import forged from "./images/forged33.png";
 import flowforged from "./images/flowforged2.png";
 import performance from "./images/performance2.png";
 
@@ -12,32 +12,32 @@ import galleryImg4 from "./images/gallery_img4.jpg";
 import galleryImg5 from "./images/gallery_img5.jpg";
 import galleryImg6 from "./images/gallery_img6.jpg";
 
-import flowforged1 from "./images/flowforgedproduct1.jpg";
-import flowforged2 from "./images/flowforgedproduct2.jpg";
-import flowforged3 from "./images/flowforgedproduct3.jpg";
-import flowforged4 from "./images/flowforgedproduct4.jpg";
-import flowforged5 from "./images/flowforgedproduct5.jpg";
-import flowforged6 from "./images/flowforgedproduct6.jpg";
-import flowforged7 from "./images/flowforgedproduct7.jpg";
-import flowforged8 from "./images/flowforgedproduct8.jpg";
+import flowforged1 from "./images/flowforgedproduct11.png";
+import flowforged2 from "./images/flowforgedproduct22.png";
+import flowforged3 from "./images/flowforgedproduct33.png";
+import flowforged4 from "./images/flowforgedproduct44.png";
+import flowforged5 from "./images/flowforgedproduct55.png";
+import flowforged6 from "./images/flowforgedproduct66.png";
+import flowforged7 from "./images/flowforgedproduct77.png";
+import flowforged8 from "./images/flowforgedproduct88.png";
 
-import forged1 from "./images/forgedproduct1.png";
-import forged2 from "./images/forgedproduct2.png";
-import forged3 from "./images/forgedproduct3.png";
-import forged4 from "./images/forgedproduct4.png";
-import forged5 from "./images/forgedproduct5.png";
-import forged6 from "./images/forgedproduct6.png";
-import forged7 from "./images/forgedproduct7.png";
-import forged8 from "./images/forgedproduct8.png";
+import forged1 from "./images/forgedproduct11.png";
+import forged2 from "./images/forgedproduct22.png";
+import forged3 from "./images/forgedproduct33.png";
+import forged4 from "./images/forgedproduct44.png";
+import forged5 from "./images/forgedproduct55.png";
+import forged6 from "./images/forgedproduct66.png";
+import forged7 from "./images/forgedproduct77.png";
+import forged8 from "./images/forgedproduct88.png";
 
-import performance1 from "./images/performanceproduct11.png";
-import performance2 from "./images/performanceproduct22.png";
-import performance3 from "./images/performanceproduct33.png";
-import performance4 from "./images/performanceproduct44.png";
-import performance5 from "./images/performanceproduct55.png";
-import performance6 from "./images/performanceproduct66.png";
-import performance7 from "./images/performanceproduct77.png";
-import performance8 from "./images/performanceproduct88.png";
+import performance1 from "./images/performanceproduct1.png";
+import performance2 from "./images/performanceproduct2.png";
+import performance3 from "./images/performanceproduct3.png";
+import performance4 from "./images/performanceproduct4.png";
+import performance5 from "./images/performanceproduct5.png";
+import performance6 from "./images/performanceproduct6.png";
+import performance7 from "./images/performanceproduct7.png";
+import performance8 from "./images/performanceproduct8.png";
 
 export const heroSliders = [
   {
