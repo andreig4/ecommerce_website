@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import logo from "../images/project_logo.png";
 import sponsorLogo from "../images/sponsorlogo4.png";
 import sponsorLogo2 from "../images/sponsorlogo2.png";
 import sponsorLogo3 from "../images/sponsorlogo3.png";

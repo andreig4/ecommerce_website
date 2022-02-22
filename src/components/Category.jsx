@@ -1,6 +1,4 @@
 import React from "react";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 import { useNavigate } from "react-router-dom";
 
 const Category = ({ img, categoryName, id }) => {

@@ -28,7 +28,7 @@ function App() {
         dispatch(addCartItemsNumber(entry.amount));
       });
     }
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="app">
